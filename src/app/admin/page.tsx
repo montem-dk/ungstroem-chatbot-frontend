@@ -134,7 +134,7 @@ export default function AdminPanel() {
 
   const handleDeleteUser = async () => {
     if (!selectedUser) return;
-    if (selectedUser.email === "zohaibmunir32@gmail.com") {
+    if (selectedUser.email === "paskar@ungstroem.dk") {
       setBanner({ type: "error", msg: "Admin account cannot be deleted." });
       setDeleteOpen(false);
       return;

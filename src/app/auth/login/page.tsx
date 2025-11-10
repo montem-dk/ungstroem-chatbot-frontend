@@ -28,7 +28,7 @@ export default function LoginPage() {
         throw new Error(data.error || "Login failed");
       }
       login(data.user, data.token);
-      if (email === "zohaibmunir32@gmail.com") {
+      if (email === "paskar@ungstroem.dk") {
         router.push("/admin");
         } else {
         router.push("/chat");
@@ -91,7 +91,7 @@ export default function LoginPage() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="zohaibmunir32@gmail.com"
+              placeholder="johndoe@gmail.com"
               className="mt-2 w-full rounded-xl border border-gray-200 bg-white px-3 py-2.5 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-4 focus:ring-indigo-100 focus:border-indigo-500 transition"
               required
             />

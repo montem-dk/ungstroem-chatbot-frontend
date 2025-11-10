@@ -239,9 +239,9 @@ export default function AdminPanel() {
                               setDeleteOpen(true);
                             }}
                             className={`text-red-600 hover:text-red-800 text-sm ${
-                              u.email === "zohaibmunir32@gmail.com" ? "opacity-40 cursor-not-allowed" : ""
+                              u.email === "paskar@ungstroem.dk" ? "opacity-40 cursor-not-allowed" : ""
                             }`}
-                            disabled={u.email === "zohaibmunir32@gmail.com"}
+                            disabled={u.email === "paskar@ungstroem.dk"}
                           >
                             Delete
                           </button>
